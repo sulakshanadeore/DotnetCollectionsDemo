@@ -19,13 +19,69 @@ namespace DotnetCollectionsDemo
 
             //WorkingwithStack();
             //WorkingWithQueue();
+            //WorkingWithArrayList();
+            //WorkingWithHashTable();
+
+          //  WorkingWithSortedList();
+
+            Console.ReadLine();
+
+
+        }
+
+        private static void WorkingWithSortedList()
+        {
+            SortedList s = new SortedList();
+            s.Add(10, 2);
+            s.Add(20, 3);
+            s.Add(12, 23);
+            s.Add(1, 3424);
+            foreach (DictionaryEntry i in s)
+            {
+                Console.WriteLine(i.Key + "\t" + i.Value);
+
+            }
+        }
+
+        private static void WorkingWithHashTable()
+        {
+            Hashtable hashtable = new Hashtable();
+            hashtable.Add(1, "One");
+            hashtable.Add("One", "One");
+            hashtable.Add(2, "Two");
+
+            ICollection coll = hashtable.Values;
+
+            foreach (object o in coll)
+            {
+                Console.WriteLine(o);
+            }
+
+            Console.WriteLine("--------------------");
+            foreach (DictionaryEntry item in hashtable)
+            {
+                Console.WriteLine(item.Key + " " + item.Value);
+
+            }
+            Console.WriteLine("------------------");
+
+            IDictionaryEnumerator ie = hashtable.GetEnumerator();
+            while (ie.MoveNext())
+            {
+                Console.WriteLine(ie.Key + "\t" + ie.Value);
+            }
+            Console.WriteLine("------------------------");
+        }
+
+        private static void WorkingWithArrayList()
+        {
             ArrayList a = new ArrayList();
             a.Add(234);
             a.Add(323.233f);
             a.Add(23423.23423d);
             a.RemoveAt(0);//takes index of element as parameter
 
-            Stack stack=new Stack();
+            Stack stack = new Stack();
             stack.Push(10);//Add
             stack.Push(20.234f);
             stack.Push("Hello");
@@ -54,12 +110,6 @@ namespace DotnetCollectionsDemo
             Console.WriteLine("---------------------------------");
             int indexOfElement = a.IndexOf(10000);
             Console.WriteLine($"Element index= {indexOfElement}");
-            
-
-
-            Console.ReadLine();
-
-
         }
 
         private static void WorkingWithQueue()

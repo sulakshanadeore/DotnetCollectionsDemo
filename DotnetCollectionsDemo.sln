@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCollectionsDemo", "DotnetCollectionsDemo\DotnetCollectionsDemo.csproj", "{0537F780-C940-4C9E-AB64-06E8B7DE37EC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DD0473CB-26EC-48E3-85E1-4B61EF1861EB} = {DD0473CB-26EC-48E3-85E1-4B61EF1861EB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingLibrary", "ShoppingLibrary\ShoppingLibrary.csproj", "{DD0473CB-26EC-48E3-85E1-4B61EF1861EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{0537F780-C940-4C9E-AB64-06E8B7DE37EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0537F780-C940-4C9E-AB64-06E8B7DE37EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0537F780-C940-4C9E-AB64-06E8B7DE37EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0473CB-26EC-48E3-85E1-4B61EF1861EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0473CB-26EC-48E3-85E1-4B61EF1861EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0473CB-26EC-48E3-85E1-4B61EF1861EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0473CB-26EC-48E3-85E1-4B61EF1861EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
