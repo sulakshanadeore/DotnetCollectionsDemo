@@ -14,5 +14,12 @@ namespace DotnetCollectionsDemo
 
         }
 
+
+        public static int AddNos(this Class2 obj,int i, int j)
+        {
+
+            return i + j;
+        }
+
     }
 }

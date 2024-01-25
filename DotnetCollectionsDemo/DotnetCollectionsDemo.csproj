@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotnetCollectionsDemo.StackGenericDemo</StartupObject>
+    <StartupObject>DotnetCollectionsDemo.SortedListDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ShoppingLibrary">
@@ -53,6 +53,7 @@
     <Compile Include="GenericCollectionsDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SortedListDemo.cs" />
     <Compile Include="StackGenericDemo.cs" />
   </ItemGroup>
   <ItemGroup>
