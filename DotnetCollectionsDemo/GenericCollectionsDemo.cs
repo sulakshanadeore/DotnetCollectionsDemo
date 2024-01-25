@@ -22,13 +22,6 @@ namespace DotnetCollectionsDemo
             {
                 //Products pnew = new Products();
                 //pnew.ProductId = 5;
-
-
-
-
-
-
-
                 Products p1 = new Products() {ProductId=1,ProductName="Keyboard",Price=1000 };
                 productlist.Add(p1);
                 Products p2 = new Products() { ProductId = 2, ProductName = "Mobiles", Price = 10000 };

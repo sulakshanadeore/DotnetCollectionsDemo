@@ -12,7 +12,7 @@ namespace ShoppingLibrary
         public string ProductName { get; set; }
         public float  Price { get; set; }
 
-
+        public DateTime MfgDate { get; set; }
 
     }
 }

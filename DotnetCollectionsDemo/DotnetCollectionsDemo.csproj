@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotnetCollectionsDemo.GenericCollectionsDemo</StartupObject>
+    <StartupObject>DotnetCollectionsDemo.StackGenericDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ShoppingLibrary">
@@ -49,9 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DemoExtension.cs" />
     <Compile Include="GenericCollectionsDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StackGenericDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
